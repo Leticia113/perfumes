@@ -1,16 +1,4 @@
-Claro. Vou adaptar o sistema inteiro de **carros para perfumes**, mantendo a mesma estrutura visual e funcionamento: dashboard, cadastro, pesquisa, exclusão e CSV.
 
- Principais mudanças:
-
- - 🚗 → 🌸/🧴
-- Marca, modelo, ano, cor, placa etc. → **Marca, Perfume, Ano, Fragrância, Volume, Preço, Observações**
-- “Frota” → “Coleção”
-- “Quilometragem” → “Volume”
-- “Valor total da frota” → “Valor total da coleção”
-- Busca por **marca, perfume, fragrância ou volume**
-- Arquivo `carros.csv` → `perfumes.csv`
-
-```
 import streamlit as st
 import pandas as pd
 import os
@@ -1091,6 +1079,3 @@ Gestão inteligente de perfumes
 """,
     unsafe_allow_html=True
 )
-```
-
- Essa versão já troca também a **estrutura dos dados do CSV**, então você terá um `perfumes.csv` com campos próprios para perfumes.
